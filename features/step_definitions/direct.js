@@ -33,7 +33,7 @@ When('Wpisz E-mail {string} i go potwierdź', function (Mail) {
             return client.SetValue(DirectAccSelectors.Mail1, Mail, 'Set email in email input')
             .SetValue(DirectAccSelectors.Mail2, Mail, 'Confirm email in email input')
             
-  });
+          });
 
 Then('Będziesz mógł przejść do kolejnego kroku', function () {
     
