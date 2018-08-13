@@ -1,0 +1,19 @@
+{
+  "name": "zcucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "e2e-test": "nightwatch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^4.0.0",
+    "cucumber-pretty": "^1.4.4",
+    "nightwatch": "^0.9.20",
+    "nightwatch-cucumber": "^9.1.2"
+  }
+}

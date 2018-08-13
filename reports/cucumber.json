@@ -1,0 +1,165 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Konto Direct",
+    "line": 3,
+    "id": "konto-direct",
+    "tags": [
+      {
+        "name": "@direct",
+        "line": 2
+      }
+    ],
+    "uri": "features\\direct.feature",
+    "elements": [
+      {
+        "id": "konto-direct;założenie-konta",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Założenie konta",
+        "tags": [
+          {
+            "name": "@direct",
+            "line": 2
+          },
+          {
+            "name": "@direct",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Załóż konto Direct",
+            "match": {
+              "location": "features\\step_definitions\\direct.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Otwórz strone wniosku",
+            "match": {
+              "location": "features\\step_definitions\\direct.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11310000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Wpisz imie \"Paweł\" i nazwisko \"Małek\"",
+            "match": {
+              "location": "features\\step_definitions\\direct.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 367000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Wpisz PESEL \"98052909439\" i Numer telefonu '791164577'",
+            "match": {
+              "location": "features\\step_definitions\\direct.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 348000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Wpisz E-mail \"pmalek74198@gmail.com\" i go potwierdź",
+            "match": {
+              "location": "features\\step_definitions\\direct.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 539000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Będziesz mógł przejść do kolejnego kroku",
+            "match": {
+              "location": "features\\step_definitions\\direct.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7447000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Wpisze Numer \"AZC549997\" i daty z dowodu osobistego",
+            "match": {
+              "location": "features\\step_definitions\\direct.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 934000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "Wpisze Miejsce urodzenia \"Koniecpol\" i nazwisko panienskie matki \"Orzeł\"",
+            "match": {
+              "location": "features\\step_definitions\\direct.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 643000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "Wpisze Ulice \"Szkolna\", numer domu \"24\", numer mieszkania \"2\", kod pocztowy \"42230\" i miasto \"Koniecpol\"",
+            "match": {
+              "location": "features\\step_definitions\\direct.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1355000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Zaznacze Dodatkowe informacje i przejde dalej",
+            "match": {
+              "location": "features\\step_definitions\\direct.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 771000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
