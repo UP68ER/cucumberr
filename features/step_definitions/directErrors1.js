@@ -8,25 +8,25 @@ Given('Błędy przy zakładaniu konta Direct', function() {
       
   });
 
-When('Wpisz złe imie i nazwisko', function () {
+When('Wpisz złe imie {string} i nazwisko {string}', function (Name, LastName) {
     
             return client
-            .SetValue(DirectAccSelectors.FirstName, 'Paweł1', 'Name field is visible and name is wrong')
-            .SetValue(DirectAccSelectors.LastName, 'Małek1', 'Surname field is visible and surname is wrong')
+            .SetValue(DirectAccSelectors.FirstName, Name, 'Name field is visible and name is wrong')
+            .SetValue(DirectAccSelectors.LastName, LastName, 'Surname field is visible and surname is wrong')
             
   });
   
 
-When('Wpisz zły PESEL i zły numer telefonu', function () {
+When('Wpisz zły PESEL {string} i zły numer telefonu {string}', function (Pesel, PhoneNumber) {
             
-            return client.SetValue(DirectAccSelectors.Pesel, '9805290943', 'Pesel is wrong')
-            .SetValue(DirectAccSelectors.Phone, '79116457','Phone number is wrong')
+            return client.SetValue(DirectAccSelectors.Pesel, Pesel, 'Pesel is wrong')
+            .SetValue(DirectAccSelectors.Phone, PhoneNumber,'Phone number is wrong')
             
          });
-When('Wpisz zły E-mail i źle go potwierdź', function () {
+When('Wpisz zły E-mail {string} i źle go potwierdź {string}', function (Mail1, Mail2) {
     
-             return client.SetValue(DirectAccSelectors.Mail1, 'pmalek74198@gmail', 'Set wrong in email input')
-            .SetValue(DirectAccSelectors.Mail2, 'pmalek74198@gmail.com', 'Set different email in email input')
+             return client.SetValue(DirectAccSelectors.Mail1, Mail1, 'Set wrong in email input')
+            .SetValue(DirectAccSelectors.Mail2, Mail2, 'Set different email in email input')
             
   });
 

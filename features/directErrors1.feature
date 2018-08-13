@@ -8,7 +8,7 @@ Scenario: Założenie konta - błędy
 
   Given Błędy przy zakładaniu konta Direct
   When Otwórz strone wniosku
-  When Wpisz złe imie i nazwisko
-  When Wpisz zły PESEL i zły numer telefonu
-  When Wpisz zły E-mail i źle go potwierdź
+  When Wpisz złe imie "Paweł1" i nazwisko "Małek1"
+  When Wpisz zły PESEL "9805290943" i zły numer telefonu "79116457"
+  When Wpisz zły E-mail "pmalek74198@gmail" i źle go potwierdź "pmalek74198@gmail.com"
   Then Oczekuj na błędy
