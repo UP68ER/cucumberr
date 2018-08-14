@@ -5,7 +5,6 @@ const selenium = require("selenium-server"),
     require('nightwatch-cucumber')({
         cucumberArgs: [
             '--require', 'features/step_definitions',
-            // '--format', 'json:reports/cucumber.json',
             '--format', 'node_modules/cucumber-pretty',
             'features'
           ],
@@ -18,7 +17,7 @@ module.exports = {
     "custom_commands_path": "commands",
     "custom_assertions_path": "",
     "page_objects_path":
-     [],
+     ['pages/Direct'],
     "globals_path": "",
     "selenium": {
         "start_process": true,
