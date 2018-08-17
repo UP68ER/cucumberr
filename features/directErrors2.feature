@@ -8,7 +8,7 @@ Scenario: Założenie konta
   Given Załóż konto Direct
   When Otwórz strone wniosku
   When Wpisz imie "Paweł" i nazwisko "Małek"
-  When Wpisz PESEL "98052909439" i Numer telefonu '791164577'
+  When Wpisz PESEL "68021933488" i Numer telefonu '791164577'
   When Wpisz E-mail "pmalek74198@gmail.com" i go potwierdź
   Then Będziesz mógł przejść do kolejnego kroku
   When Wpisze zły numer i daty z dowodu osobistego

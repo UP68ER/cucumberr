@@ -47,7 +47,6 @@ Then('Zaznacze dodatkowe informacje i sprawdze czy wyświetlają się błędy',f
     .assert.visible(DirectStep2Selectors.ErrorHouseNumber)
     .assert.visible(DirectStep2Selectors.ErrorFlatNumber)
     .assert.visible(DirectStep2Selectors.ErrorTown)
-    .assert.visible(DirectStep2Selectors.ErrorIdValidity)
     .end();
 
 

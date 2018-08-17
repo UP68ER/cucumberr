@@ -1,15 +1,40 @@
-10:34:08.501 INFO [GridLauncherV3.launch] - Selenium build info: version: '3.13.0', revision: '2f0d292'
-10:34:08.501 INFO [GridLauncherV3$1.launch] - Launching a standalone Selenium Server on port 4444
-2018-08-17 10:34:08.601:INFO::main: Logging initialized @493ms to org.seleniumhq.jetty9.util.log.StdErrLog
-10:34:09.077 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
-10:34:09.875 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+15:20:41.896 INFO [GridLauncherV3.launch] - Selenium build info: version: '3.13.0', revision: '2f0d292'
+15:20:41.896 INFO [GridLauncherV3$1.launch] - Launching a standalone Selenium Server on port 4444
+2018-08-17 15:20:41.989:INFO::main: Logging initialized @461ms to org.seleniumhq.jetty9.util.log.StdErrLog
+15:20:42.440 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+15:20:43.201 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "acceptSslCerts": true,
   "browserName": "chrome",
   "javascriptEnabled": true,
   "marionette": true
 }
-10:34:09.891 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 11199
+15:20:43.201 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 47622
 Only local connections are allowed.
-10:34:14.009 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
-10:34:14.407 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 7bdbefb56c841fe28670d3e46d88ae48 (org.openqa.selenium.chrome.ChromeDriverService)
+15:20:47.110 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+15:20:47.472 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 3583f707022f506f324481e09cca7118 (org.openqa.selenium.chrome.ChromeDriverService)
+15:21:08.613 INFO [ActiveSessions$1.onStop] - Removing session 3583f707022f506f324481e09cca7118 (org.openqa.selenium.chrome.ChromeDriverService)
+15:21:08.644 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "javascriptEnabled": true,
+  "marionette": true
+}
+15:21:08.653 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 42886
+Only local connections are allowed.
+15:21:11.716 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+15:21:11.770 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 0deef48dfea92cb57ea5d71f63141f15 (org.openqa.selenium.chrome.ChromeDriverService)
+15:21:31.835 INFO [ActiveSessions$1.onStop] - Removing session 0deef48dfea92cb57ea5d71f63141f15 (org.openqa.selenium.chrome.ChromeDriverService)
+15:21:31.908 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "javascriptEnabled": true,
+  "marionette": true
+}
+15:21:31.909 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 49104
+Only local connections are allowed.
+15:21:35.089 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+15:21:35.136 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session afe3d58e108df2bc9811fbf9177f77b2 (org.openqa.selenium.chrome.ChromeDriverService)
+15:21:50.370 INFO [ActiveSessions$1.onStop] - Removing session afe3d58e108df2bc9811fbf9177f77b2 (org.openqa.selenium.chrome.ChromeDriverService)

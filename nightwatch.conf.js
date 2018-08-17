@@ -44,6 +44,8 @@ module.exports = {
             "desiredCapabilities": {
                 "browserName": "chrome",
                 "marionette": true
+            }
+        }
             },
             "direct" : {
                 "launch_url" : "https://stpl01571.pl.ing-ad:8443/18075",
@@ -59,7 +61,7 @@ module.exports = {
                 }
             }
 
-        },
+        
 
-    }
+    
 };

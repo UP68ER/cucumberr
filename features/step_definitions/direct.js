@@ -10,7 +10,7 @@ Given('Załóż konto Direct', function() {
 
 When('Otwórz strone wniosku', function () {
     
-            return client.url(client.launchUrl)
+            return client.url('https://stpl01571.pl.ing-ad:8443/18075')
             .maximizeWindow()
             
   });

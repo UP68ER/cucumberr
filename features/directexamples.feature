@@ -20,6 +20,6 @@ Scenario Outline: Założenie konta
   Examples:
 
   |Name|LastName|PESEL|PhoneNumber|Mail|Mail2|IdNumber|BirthTown|MaidenName|Street|HouseNumber|FlatNumber|PostCode|Town|
-  |"Paweł"|"Małek"|"98052909439"|"791164577"|"pmalek74198@gmail.com"|"pmalek74198@gmail.com"|"AZC549997"|"Włoszczowa"|"Orzeł"|"Szkolna"|"24"|"2"|"42230"|"Koniecpol"|
-  # |"Paweł1"|"Małek1"|"9805290943"|"79116457"|"pmalek74198@gmail"|"pmalek74198@gmail.com"|"AZC54999"|"asd1"|"asd1"|"."|"."|"."|"42230"|"."|
-  # |"mateusz"|"czerwinski"|"98052909439"|"791164577"|"pmalek74198@gmail.com"|"pmalek74198@gmail.com"|"AZC54999"|"asd1"|"asd1"|"."|"."|"."|"42230"|"."|
+  |"Paweł"|"Małek"|"52092824637"|"791164577"|"pmalek74198@gmail.com"|"pmalek74198@gmail.com"|"HKJ613277"|"Włoszczowa"|"Orzeł"|"Szkolna"|"24"|"2"|"42230"|"Koniecpol"|
+  # |"Paweł1"|"Małek1"|"5209282463"|"79116457"|"pmalek74198@gmail"|"pmalek74198@gmail.com"|"HKJ61327"|"asd1"|"asd1"|"."|"."|"."|"42230"|"."|
+  # |"mateusz"|"czerwinski"|"52092824637"|"791164577"|"pmalek74198@gmail.com"|"pmalek74198@gmail.com"|"HKJ61327"|"asd1"|"asd1"|"."|"."|"."|"42230"|"."|
