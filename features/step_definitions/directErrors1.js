@@ -40,5 +40,4 @@ Then('Oczekuj na błędy', function () {
             .assert.visible(DirectAccSelectors.ErrorPhone)
             .assert.visible(DirectAccSelectors.ErrorSurname)
             .assert.visible(DirectAccSelectors.ErrorDifferentMail)
-    
   });

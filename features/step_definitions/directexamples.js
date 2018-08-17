@@ -9,7 +9,7 @@ Given('Załóż konto direct', function() {
   });
 When('Otwórz strone', function () {
     
-            return client.url('https://stpl01571.pl.ing-ad:8443/18075')
+            return client.url(client.launchUrl)
             .maximizeWindow()
             
   });

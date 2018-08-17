@@ -16,8 +16,7 @@ module.exports = {
     "output_folder": "",
     "custom_commands_path": "commands",
     "custom_assertions_path": "",
-    "page_objects_path":
-     ['pages/Direct'],
+    "page_objects_path":"",
     "globals_path": "",
     "selenium": {
         "start_process": true,
@@ -45,7 +44,21 @@ module.exports = {
             "desiredCapabilities": {
                 "browserName": "chrome",
                 "marionette": true
+            },
+            "direct" : {
+                "launch_url" : "https://stpl01571.pl.ing-ad:8443/18075",
+                "selenium_port"  : 4444,
+                "selenium_host"  : "localhost",
+                "silent" : true,
+                "chrome" : {
+        
+                  "desiredCapabilities": {
+                    "browserName": "chrome"
+                  
+                  }
+                }
             }
+
         },
 
     }
