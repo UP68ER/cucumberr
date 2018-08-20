@@ -1,7 +1,7 @@
 
 const { Given, When, Then } = require('cucumber');
 const { client } = require('nightwatch-cucumber');
-var DirectAccSelectors = require('C:/Users/UP68ER/Projects/testy/pages/Direct/DirectAccSelectors.js') 
+var DirectAccSelectors = require('./selectors/DirectAccSelectors.js') 
 
 
 Given('Błędy przy zakładaniu konta Direct', function() {

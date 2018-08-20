@@ -1,8 +1,8 @@
 
 const { Given, When, Then } = require('cucumber');
 const { client } = require('nightwatch-cucumber');
-var DirectAccSelectors = require('C:/Users/UP68ER/Projects/testy/pages/Direct/DirectAccSelectors.js') 
-var DirectStep2Selectors = require ('C:/Users/UP68ER/Projects/testy/pages/Direct/DirectStep2Selectors.js')
+var DirectAccSelectors = require('./selectors/DirectAccSelectors.js') 
+var DirectStep2Selectors = require ('./selectors/DirectStep2Selectors.js')
 
 Given('Załóż konto Direct', function() {
       

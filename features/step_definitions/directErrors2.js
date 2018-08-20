@@ -1,7 +1,7 @@
 
 const { Given, When, Then } = require('cucumber');
 const { client } = require('nightwatch-cucumber');
-var DirectStep2Selectors = require('C:/Users/UP68ER/Projects/testy/pages/Direct/DirectStep2Selectors.js')
+var DirectStep2Selectors = require('./selectors/DirectStep2Selectors.js')
 
 
 When('Wpisze zły numer i daty z dowodu osobistego',function(){
